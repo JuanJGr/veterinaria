@@ -15,10 +15,6 @@ public class MascotaController {
     @Autowired
     private MascotaService mascotaService;
 
-    @GetMapping("/")
-    public String inicio() {
-        return "API Veterinaria funcionando en Render";
-    }
 
     // GET: listar todas
     @GetMapping
