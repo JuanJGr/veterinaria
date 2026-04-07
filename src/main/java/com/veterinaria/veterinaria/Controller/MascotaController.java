@@ -15,6 +15,11 @@ public class MascotaController {
     @Autowired
     private MascotaService mascotaService;
 
+    @GetMapping("/")
+    public String inicio() {
+        return "API Veterinaria funcionando en Render";
+    }
+
     // GET: listar todas
     @GetMapping
     public ResponseEntity<List<MascotaDTO>> listar() {
@@ -47,8 +52,5 @@ public class MascotaController {
         return ResponseEntity.noContent().build();
     }
 
-    @GetMapping("/test")
-    public String test() {
-        return "FUNCIONA";
-    }
+
 }
