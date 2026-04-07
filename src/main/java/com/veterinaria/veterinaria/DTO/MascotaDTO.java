@@ -1,4 +1,4 @@
-package com.veterinaria.api.dto;
+package com.veterinaria.veterinaria.dto;
 
 import lombok.*;
 

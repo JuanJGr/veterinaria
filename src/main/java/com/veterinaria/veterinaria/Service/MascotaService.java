@@ -1,7 +1,7 @@
-package com.veterinaria.api.service;
+package com.veterinaria.veterinaria.Service;
 
 import java.util.List;
-import com.veterinaria.api.dto.MascotaDTO;
+import com.veterinaria.veterinaria.dto.MascotaDTO;
 
 public interface MascotaService {
 

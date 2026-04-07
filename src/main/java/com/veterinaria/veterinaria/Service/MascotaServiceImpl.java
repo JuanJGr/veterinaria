@@ -1,4 +1,4 @@
-package com.veterinaria.api.service;
+package com.veterinaria.veterinaria.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -6,9 +6,10 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.veterinaria.api.dto.MascotaDTO;
+import com.veterinaria.veterinaria.dto.MascotaDTO;
 import com.veterinaria.veterinaria.Model.Mascota;
 import com.veterinaria.veterinaria.Repository.MascotaRepository;
+
 @Service
 public class MascotaServiceImpl implements MascotaService {
 
