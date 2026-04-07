@@ -46,4 +46,9 @@ public class MascotaController {
         mascotaService.eliminar(id);
         return ResponseEntity.noContent().build();
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "FUNCIONA";
+    }
 }
